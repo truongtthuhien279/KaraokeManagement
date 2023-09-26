@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtmaso"
+        android:layout_width="3dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="57455"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txttieude"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="em la ai"
+        android:textAlignment="textStart"
+        android:textColor="#03A9F4"
+        android:textSize="18sp" />
+
+    <FrameLayout
+        android:layout_width="44dp"
+        android:layout_height="29dp">
+
+        <ImageButton
+            android:id="@+id/btnunlike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00000000"
+            app:srcCompat="@drawable/unlike" />
+
+        <ImageButton
+            android:id="@+id/btnlike"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00000000"
+            app:srcCompat="@drawable/love" />
+    </FrameLayout>
+
+</LinearLayout>
